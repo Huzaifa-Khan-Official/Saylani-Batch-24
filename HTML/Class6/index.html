@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- <form>
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="user@gmail.com">
+    <input type="tel" placeholder="+9297974346">
+    <input type="password" placeholder="Enter your password">
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">others
+
+    <input type="radio" name="class"> Class 9
+    <input type="radio" name="class"> Class 10
+    <input type="radio" name="class"> Class 11
+    <input type="radio" name="class"> Class 12
+
+    <select>
+      <option disabled selected>Choose your country</option>
+      <option>Russia</option>
+      <option>Thailand</option>
+      <option>Saudia</option>
+      <option>Pakistan</option>
+    </select>
+
+    <select>
+      <option disabled selected>Choose your gender</option>
+      <option>Male</option>
+      <option>FeMale</option>
+      <option>Others</option>
+    </select>
+
+    <input type="file" accept="image/*">
+
+    <textarea placeholder="Enter your feedback" rows="4" cols="10"></textarea>
+
+    <input type="datetime-local">
+
+    <p>What is 2 + 2?</p>
+    <input type="checkbox" name="question3"> four
+    <input type="checkbox" name="question3"> 4
+    <input type="checkbox" name="question3"> Chaar
+    <input type="checkbox" name="question3"> IV
+    <input type="checkbox" name="question3"> 5
+
+  </form> -->
+
+  <form action="./feedback.html">
+    <fieldset>
+      <!-- <legend align="center">Personal Information</legend> -->
+      <h1>Personal Information</h1>
+      <label>
+        User Name:
+        <input type="text" placeholder="Enter your name" name="username" maxlength="5" required>
+      </label><br>
+      <label>
+        Email:
+        <input type="email" name="userEmail" id="" placeholder="user@gmail.com">
+      </label><br>
+      <label>
+        Password:
+        <input type="password" name="" id="" placeholder="Enter your password">
+      </label><br>
+      <!-- <input type="submit" value="Submit"> -->
+
+      <!-- user gender -->
+      <!-- <input type="radio" name="gender" id="">Male
+    <input type="radio" name="gender" id="">Female
+    <input type="radio" name="gender" id="" checked>Others -->
+
+      <!-- user Hobbies -->
+      <label>
+        Choose your hobbies:
+        <input type="checkbox" name="hobbies" id="" value="Footbal">Football
+        <input type="checkbox" name="hobbies" id="" value="Videos">Videos
+        <input type="checkbox" name="hobbies" id="" value="Cricket">Cricket
+        <input type="checkbox" name="hobbies" id="" value="Time pass">Time pass
+        <input type="checkbox" name="hobbies" id="" value="Logon ko tang karna">Logon ko tang karna
+      </label>
+      <br>
+
+      <label>
+        Subject:
+        <select name="subjets" id="">
+          <option value="" selected disabled>Choose your field</option>
+          <option value="CS">Computer Science</option>
+          <option value="Phy">Physics</option>
+          <option value="Chem">Chemistry</option>
+          <option value="Bio">Bio</option>
+          <option value="Maths">Maths</option>
+        </select>
+      </label>
+      <br>
+
+      <label>
+        Profile Picture:
+        <input type="file" name="" id="" accept="image/*">
+      </label>
+      <br>
+
+      <input type="hidden" name="role" value="student">
+
+
+
+      <br>
+      <button type="submit">Submit</button>
+      <br>
+      <!-- <input type="image" src="./assets/submitBtn.webp" alt="" width="50px" height="50px"> -->
+    </fieldset>
+  </form>
+
+</body>
+
+</html>
