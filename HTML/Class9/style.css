@@ -1,0 +1,80 @@
+/* Universal Selector */
+/* * {
+    background-color: cadetblue;
+    font-size: 14px;
+    font-weight: normal;
+} */
+
+/* Commenting */
+/*  */
+
+/* Type Selector */
+/* p {
+    border: 1px solid rgb(237, 254, 45);
+}
+
+h1 {
+    border: 1px dotted cadetblue;
+} */
+
+
+/* h1, p, li {
+    border: 1px dashed cadetblue
+} */
+
+
+/* Class Selector */
+/* .odd {
+    border: 1px solid lightseagreen;
+}
+
+.even {
+    border: 4px solid red;
+}
+
+.odd, .even {
+    background-color: burlywood;
+}
+
+#changeDiv {
+    background-color: aqua !important;
+}
+
+p.note {
+    font-weight: bolder;
+    border: 4px solid lightcoral
+} */
+
+
+/* Child Selector */
+/* using type selector */
+/* li>a {
+    color: pink;
+} */
+
+/* using class selector */
+/* .list > li > a {
+    color: red;
+} */
+/* .list li a {
+    color: red;
+} */
+
+/* .targeted a,
+div~a {
+    color: red;
+} */
+
+
+/* Adjacent Sibling
+Selector */
+/* h1+p {
+    border: 1px solid cyan
+} */
+
+
+/* General Sibling
+Selector */
+/* h1~p~ul, div li {
+    border: 1px solid cyan
+} */
