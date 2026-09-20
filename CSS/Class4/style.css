@@ -1,0 +1,145 @@
+/* p {
+    border: 1px solid black;
+    background-color: burlywood;
+    animation: fadeInBottom 2s ease forwards;
+
+    transform: rotate(180deg);
+    animation: rotateAnimate 2s ease;
+    transform: rotate(180deg);
+}
+
+@keyframes rotateAnimate {
+    0% {
+        opacity: 0;
+        transform: rotate(90deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(180deg);
+    }
+} */
+
+/* @keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+        transform: scale(0.9);
+    }
+
+    50% {
+        background-color: pink;
+    }
+
+    70% {
+        background-color: yellow;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        transform: scale(1);
+    }
+}
+
+p:hover {
+    background-color: cadetblue;
+    transform: scale(1.3) !important;
+    transition: 2s ease;
+} */
+
+/* button:active, a:active {
+    background-color: cornsilk;
+}
+
+input:focus {
+    background-color: brown;
+} */
+/* 
+body {
+    overflow-x: hidden;
+}
+
+p {
+    opacity: 0;
+    background-color: burlywood;
+    width: 400px;
+    height: 50px;
+    overflow: auto;
+    animation: fadeInBottom 2s ease-in 0s 1 normal forwards;
+}
+
+p#one {
+    animation: fadeInBottom 2s ease-in 1s 1 normal forwards;
+}
+
+p#two {
+    animation: fadeInBottom 2s ease-in 2s 1 normal forwards;
+}
+
+p#three {
+    animation: fadeInBottom 2s ease-in 3s 1 normal forwards;
+}
+
+p#four {
+    animation: fadeInBottom 2s ease-in 4s 1 normal forwards;
+}
+
+p#five {
+    animation: fadeInBottom 2s ease-in 5s 1 normal forwards;
+}
+
+
+@keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
+
+/* 
+p {
+    display: inline-flexbox;
+    width: 50vw;
+}
+
+#bannerImg {
+    display: inline-flex;
+    width: 50vw;
+} */
+
+/* #bannerImg {
+    min-width: 98vw;
+    min-height: 100vh;
+} */
+
+/* p {
+    min-height: 100vh;
+    max-height: 96vh;
+    overflow: auto;
+} */
+
+/* p {
+    min-height: 50vh;
+    max-height: 90vh;
+    overflow: auto;
+    min-width: 50vw;
+    max-width: 80vw;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    border: 2px solid blueviolet;
+    padding: 6px 20px 30px 50px;
+    margin: 5px 20px 30px 50px;
+}
