@@ -1,0 +1,114 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* #para {
+    border: 1px solid black;
+    min-width: 40vw;
+    max-width: 80vw;
+    max-width: 40vw;
+    min-width: 50vw;
+    max-width: 70vw;
+
+
+    min-height: 40vh;
+    max-height: 50vh;
+    height: 60vh;
+    overflow-y: scroll;
+
+    border-top: 5px solid blue;
+    border-right: 5px dashed brown;
+    border-bottom: 5px double cadetblue;
+    border-left: 5px dotted cyan;
+
+    border: 5px groove paleturquoise;
+
+    text-align: center;
+
+    margin: 0 auto;
+} */
+
+/* h1, p {
+    display: inline;
+} */
+
+/* span {
+    display: block;
+    display: inline-block;
+} */
+/* 
+.box1 {
+    margin-top: 20px;
+    width: 50vw;
+    height: 100px;
+    background-color: burlywood;
+    visibility: hidden;
+    display: none;
+    visibility: visible;
+
+    box-shadow: 10px 10px 5px 0px cadetblue;
+
+    border-radius: 10px 2px;
+
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 10px;
+}
+
+button {
+    padding: 4px 10px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+} */
+
+ul {
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+ol {
+    list-style-type: circle;
+    /* list-style-image: url("./assets/world.jfif"); */
+
+}
+
+table {
+    background-color: bisque;
+}
+
+table,
+td,
+th {
+    border: 1px solid lightblue
+}
+
+table {
+    margin: 0 auto;
+    empty-cells: hide;
+    /* border-spacing: 10px; */
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 4px 15px;
+    width: 100px;
+    text-align: center;
+}
+
+.days {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td:hover {
+    transform: scale(1.2);
+    background-color: cadetblue;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
