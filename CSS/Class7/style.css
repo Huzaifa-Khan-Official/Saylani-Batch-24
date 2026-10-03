@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    width: 100vw;
+    height: 100vh;
+} */
+
+/* #box {
+    width: 40vw;
+    height: 100%;
+    background-color: cadetblue;
+    margin: auto;
+    position: relative;
+} */
+
+/* .fa-solid {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+} */
+
+/* li { */
+/* display: inline-block; */
+/* border: 1px solid lightblue; */
+/* width: ; */
+/* padding: 6px 10px; */
+/* } */
+
+/* #nav {
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+} */
+
+/* #content {
+    padding-top: 50px;
+} */
+
+/* #nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100vw;
+} */
+
+/* .box { */
+/* width: 100px; */
+/* height: 100px; */
+/* background-color: brown; */
+/* position: absolute; */
+/* } */
+
+/* .box-red { */
+/* background-color: crimson; */
+/* z-index: 1; */
+/* float: right; */
+/* } */
+
+/* .box-blue {
+    background-color: cadetblue;
+    z-index: 2;
+    float: right;    
+} */
+
+/* .clear { */
+/* clear: right; */
+/* clear: both; */
+/* } */
+
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "sec1 sec1 sec2 sec2"
+    "sec3 sec4 sec5 sec6"
+    "sec7 sec7 sec7 sec7"
+    ;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(1fr, 4); */
+
+    /* grid-template-columns: 100px 200px 100px auto; */
+    grid-template-columns: 30% 20% 40% 10%;
+    border: 1px solid black;
+}
+
+.container div {
+    border: 1px solid red
+}
+
+#sec1 {
+    grid-area: sec1;
+}
+
+#sec2 {
+    grid-area: sec2;
+}
+
+#sec7 {
+    grid-area: sec7;
+}
+
+.heading {
+    padding: 10px 6px;
+    border: 1px solid lightblue;
+    margin: 10px 5px;
+    box-shadow: 10px 5px 5px lightslategrey;
+}
