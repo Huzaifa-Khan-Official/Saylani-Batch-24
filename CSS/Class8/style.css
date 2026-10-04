@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    background-color: black;
+    color: white;
+    /* color: rgb(120, 106, 106); */
+}
+
+#nav div {
+    display: inline-block;
+}
+
+#navLogo img {
+    width: 80px;
+    /* height: 20px; */
+}
+
+#navItems li {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+}
+
+#navSearch {
+    float: right;
+}
+
+
+/* banner-section */
+.banner-section {
+    min-height: 100vh;
+    /* background-image: url("./assets/car.avif"); */
+    /* background-image: url("./assets/logo.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; */
+    background: url("./assets/car.avif") no-repeat fixed center center;
+
+    /* background: #d6476b;
+    background: linear-gradient(168deg, rgba(214, 71, 107, 1) 0%, rgba(79, 93, 102, 1) 87%); */
+
+    /* background: #3a6186;
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    background: linear-gradient(to right, #89253e, #3a6186); */
+
+
+    padding: 40px 80px;
+    font-family: sans-serif;
+    /* color: white; */
+    color: black;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 300px 60px -120px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.banner-section p,
+.banner-section button {
+    margin-top: 20px;
+}
