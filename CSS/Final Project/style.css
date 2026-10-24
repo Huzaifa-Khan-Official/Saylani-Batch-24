@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url("./assets/HeroImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    color: white;
+}
+
+.banner p {
+    font-size: 20px;
+    color: lightslategray;
+}
+
+.banner input {
+    background-color: lightslategrey;
+    outline: none;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    color: white;
+    width: 300px;
+    padding-right: 50px;
+}
+
+.banner input::placeholder {
+    color: white
+}
+
+.hero-search {
+    position: relative;
+}
+
+.searchIcon {
+    background-color: #E58411;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+}
