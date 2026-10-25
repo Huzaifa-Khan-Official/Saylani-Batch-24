@@ -48,3 +48,77 @@
     top: 5px;
     right: 8px;
 }
+
+.benifit-section div a {
+    color: #E58411;
+}
+
+.benifit-section div i {
+    color: lightslategray;
+}
+
+.best-products .btn-group {
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.best-products .btn-group button {
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    background-color: transparent;
+}
+
+.best-products .btn-group button.active {
+    background-color: white;
+}
+
+.best-products {
+    background-color: #F7F7F7;
+}
+
+.left-arrow-div,
+.right-arrow-div {
+    background-color: white;
+    width: fit-content;
+    font-size: 26px;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+.product-listing-div {
+    position: relative;
+}
+
+.left-arrow-div {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.right-arrow-div {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.products-listing .card {
+    background-color: transparent;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.best-products button {
+    color: #E58411;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
