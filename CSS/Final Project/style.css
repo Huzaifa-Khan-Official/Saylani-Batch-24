@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .hero-section {
     height: 100vh;
     background-image: url("./assets/HeroImage.png");
@@ -116,9 +120,48 @@
     background-color: white;
 }
 
-.best-products button {
+.best-products button,
+.experience-section button {
     color: #E58411;
     background-color: transparent;
     border: none;
     font-size: 20px;
+}
+
+.experience-section h3 {
+    color: #E58411;
+}
+
+.experience-section img {
+    box-shadow: rgba(23, 23, 39, 0.25) 0px 50px 100px -20px, rgba(231, 24, 24, 0.3) 0px 30px 60px -30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+#top-left {
+    width: 80%;
+    height: 50px;
+    background-color: brown;
+    border-top-right-radius: 30px;
+}
+
+#center-right {
+    width: 50px;
+    height: 60%;
+    background-color: cadetblue;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    right: -16px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: -1;
+}
+
+#top-right {
+    width: 50%;
+    height: 50px;
+    background-color: brown;
+    border-top-left-radius: 30px;
+    align-self: end;  
 }
