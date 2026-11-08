@@ -1,0 +1,174 @@
+@import url("./style2.css");
+
+/* h1 { */
+/* padding: -10px; */
+/* font-size: 2cm; */
+/* font-size: 10d; */
+/* background-color: brown; */
+/* border-radius: 10deg; */
+/* font-size: 10rem; */
+/* font-size: 10px; */
+/* font-size: 60; */
+/* } */
+
+/* ul {
+    list-style-type: square;
+    list-type: square;
+} */
+/* 
+span {
+    top: 0;
+    position: fixed;
+}
+
+#container>p {
+    background-color: #deb887;
+    color: blanchedalmond;
+    width: 200vw;
+}
+
+
+
+.price::before {
+    content: "$ ";
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.price::after {
+    content: " / month";
+    color: #6b7280;
+    font-size: 14px;
+}
+
+#container>p:hover {
+    background-color: antiquewhite;
+} */
+
+
+
+/* body { */
+/* overflow: hidden visible; */
+/* overflow: visible hidden; */
+/* } */
+
+/* 
+
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 200px;
+  background-color: brown;
+}
+.child {
+  height: 100px;
+  flex-grow: 1;
+  background-color: cadetblue;
+}
+
+.abc {
+    height: 100px;
+    background-color: brown;
+}
+
+.abc h1 {
+    line-height: 100px;
+} */
+
+/* h1 {
+    color: rgba(0, 0, 0, 1);
+}
+
+body {
+    overflow: hidden;
+    overflow: hidden auto;
+}
+
+#container {
+    width: 200vw;
+    background-color: brown;
+    border: 3px solid yellow;
+    border-top: 5px solid black;
+    border-top-color: cadetblue;
+} */
+
+/* ul {
+    list-style-type: decimal-leading-zero;
+} */
+
+/* .container {
+    background-color: brown;
+    height: 100px;
+}
+
+.container h1 {
+    line-height: 100px;
+    text-align: center;
+} */
+/* 
+body {
+    color: white;
+    background-image: url("./assets/galaxy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-clip: content-box;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    min-width: 500px;
+    min-width: 150px;
+    max-width: 200px;
+    background-color: blanchedalmond;
+}
+
+
+.box1 {
+    background-color: brown;
+    float: left;
+    position: fixed;
+    z-index: -1;
+}
+
+.box2 {
+    background-color: darkkhaki;
+    float: right;
+
+    clear: left;
+}
+
+.box3 {
+    clear: both;
+}
+
+h1 {
+    font-size: larger;
+} */
+
+h1 {
+    color: var(--primary-color, red);
+}
+
+section {
+    height: 600px;
+    background-color: brown;
+    color: beige;
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: stretch;
+}
+
+.container div {
+    border: 1px solid black;
+}
